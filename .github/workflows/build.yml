@@ -28,6 +28,8 @@ jobs:
             automake \
             libtool \
             libtool-bin \
+            libltdl-dev \
+            autoconf-archive \
             pkg-config \
             zlib1g-dev \
             libncurses5-dev \
@@ -43,6 +45,7 @@ jobs:
       - name: Build with buildozer
         run: |
           export PATH=$PATH:~/.local/bin
+          export ACLOCAL_PATH=/usr/share/aclocal:/usr/local/share/aclocal
           buildozer -v android debug
 
       - name: Upload APK

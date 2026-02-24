@@ -1,0 +1,27 @@
+{
+  "folder_config_9e9e824c": {
+    "parent_dir": "D:/item of BCP",
+    "config": {
+      "selected_folders": [
+        "PROJECT 2",
+        "PROJECT 4",
+        "PROJECT 1",
+        "PROJECT 3"
+      ],
+      "folder_order": [
+        "PROJECT 2",
+        "PROJECT 4",
+        "PROJECT 1",
+        "PROJECT 3"
+      ],
+      "order_mapping": {
+        "PROJECT 1": 3,
+        "PROJECT 2": 1,
+        "PROJECT 3": 4,
+        "PROJECT 4": 2
+      },
+      "total_folders": 7
+    },
+    "timestamp": "2026-02-22T15:52:14.754595"
+  }
+}

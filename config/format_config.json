@@ -1,0 +1,14 @@
+{
+  "标准格式(文件)": {
+    "template": "{学号} {姓名}{扩展名}",
+    "is_folder": false
+  },
+  "标准格式(文件夹)": {
+    "template": "{学号} {姓名}",
+    "is_folder": true
+  },
+  "含班级格式": {
+    "template": "{姓名}_{班级}{扩展名}",
+    "is_folder": false
+  }
+}

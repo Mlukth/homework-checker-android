@@ -3,7 +3,7 @@ name: Build Android APK
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,18 +24,26 @@ jobs:
             git zip unzip \
             openjdk-17-jdk \
             python3-pip \
+            build-essential \
             autoconf \
             automake \
             libtool \
             libtool-bin \
             libltdl-dev \
             autoconf-archive \
+            gettext \
             pkg-config \
             zlib1g-dev \
             libncurses5-dev \
             libffi-dev \
             libssl-dev \
-            cmake
+            cmake \
+            libpng-dev \
+            libjpeg-dev \
+            libtiff-dev \
+            libgif-dev \
+            libfreetype6-dev \
+            libharfbuzz-dev
 
       - name: Install buildozer
         run: |

@@ -33,7 +33,9 @@ jobs:
           buildozer android debug
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # 从 v3 升级至 v4
         with:
           name: homework-checker-apk
           path: bin/*.apk
+
+          

@@ -24,10 +24,15 @@ jobs:
             git zip unzip \
             openjdk-17-jdk \
             python3-pip \
-            autoconf libtool pkg-config \
+            autoconf \
+            automake \
+            libtool \
+            libtool-bin \
+            pkg-config \
             zlib1g-dev \
             libncurses5-dev \
-            libffi-dev libssl-dev \
+            libffi-dev \
+            libssl-dev \
             cmake
 
       - name: Install buildozer
